@@ -11,6 +11,9 @@ importers:
       '@babel/core':
         specifier: '>=7.0.0-beta.0 <8'
         version: 7.25.2
+      '@jest/monorepo':
+        specifier: github:meta-introspector/jest
+        version: https://codeload.github.com/meta-introspector/jest/tar.gz/4a58402556ecd05ca9cc01873db6fbc5596ccc67
       bs-logger:
         specifier: ^0.2.6
         version: 0.2.6

@@ -13,8 +13,7 @@
     "resolveJsonModule": true,
     "checkJs": false,
     "target": "ESNext",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "node",
     "lib": ["ESNext"]
   }
 }

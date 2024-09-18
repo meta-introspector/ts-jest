@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  ts-jest:
+    restart: no
+    image: ts-jest-build
+    build: .
+    environment:
+      - LOG_LEVEL=Debug
+    working_dir: /app
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - systempaths:unconfined
+    #command: "bash -x /app/run-all-tests.sh"
+    # strace -f -o /tmp/strace.txt

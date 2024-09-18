@@ -71,3 +71,19 @@ See also the list of [contributors](https://github.com/kulshekhar/ts-jest/contri
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+# Developer notes
+
+### setup
+```
+cat ~/.gitignore_templates/Emacs.gitignore  >> .gitignore
+```
+### install 
+
+```
+ nvm use
+ npm install -g yarn
+ yarn
+```
+
